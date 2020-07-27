@@ -33,8 +33,8 @@ class CommentsViewController: UIViewController {
         
         if let forum = self.forumSelected {
             
-            lblTitle.text =  "Título: \(forum.title)"
-            lblBody.text = "Descripción:\(forum.body)"
+            lblTitle.text =  forum.title
+            lblBody.text = forum.body
             self.commentViewModel?.callFuncToGetEmpData(id: forum.id)
             
         }
@@ -50,9 +50,9 @@ class CommentsViewController: UIViewController {
         
         
         self.dataSource = TableViewDataSourceUtil(cellIdentifier: "commentCellIdentifier", items: self.commentViewModel?.empData, configureCell: { (cell, evm) in
-            cell.lblName.text = "Nombre: \(evm.name)"
-            cell.lblEmail.text = "Email: \(evm.email)"
-            cell.lblContent.text = "Mensaje: \(evm.body)"
+            cell.lblName.text = evm.name
+            cell.lblEmail.text = evm.email
+            cell.lblContent.text = evm.body
         })
         
         
