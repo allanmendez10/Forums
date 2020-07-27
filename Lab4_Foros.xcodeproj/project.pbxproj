@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCBCA12324CE5D73002556F4 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA12224CE5D73002556F4 /* Forum.swift */; };
+		FCBCA12724CE651F002556F4 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA12624CE651F002556F4 /* CommentsViewController.swift */; };
+		FCBCA12A24CE6744002556F4 /* ManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA12924CE6744002556F4 /* ManagerService.swift */; };
+		FCBCA12C24CE688A002556F4 /* ForumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA12B24CE688A002556F4 /* ForumRepository.swift */; };
+		FCBCA12F24CE8824002556F4 /* HttpCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA12E24CE8824002556F4 /* HttpCode.swift */; };
+		FCBCA13224CE9B5D002556F4 /* ForumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13124CE9B5D002556F4 /* ForumViewModel.swift */; };
+		FCBCA13424CE9E2C002556F4 /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13324CE9E2C002556F4 /* ForumTableViewCell.swift */; };
+		FCBCA13724CEA107002556F4 /* TableViewDataSourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13624CEA107002556F4 /* TableViewDataSourceUtil.swift */; };
+		FCBCA13924CEA35E002556F4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13824CEA35E002556F4 /* Comment.swift */; };
+		FCBCA13C24CEC779002556F4 /* ForumProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13B24CEC779002556F4 /* ForumProtocol.swift */; };
+		FCBCA13E24CECF31002556F4 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13D24CECF31002556F4 /* CommentViewModel.swift */; };
+		FCBCA14024CED329002556F4 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA13F24CED329002556F4 /* CommentTableViewCell.swift */; };
 		FCC6170B24CC935300C421C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6170A24CC935300C421C6 /* AppDelegate.swift */; };
 		FCC6170D24CC935300C421C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6170C24CC935300C421C6 /* SceneDelegate.swift */; };
 		FCC6170F24CC935400C421C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6170E24CC935400C421C6 /* ViewController.swift */; };
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCBCA12224CE5D73002556F4 /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		FCBCA12624CE651F002556F4 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		FCBCA12924CE6744002556F4 /* ManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerService.swift; sourceTree = "<group>"; };
+		FCBCA12B24CE688A002556F4 /* ForumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumRepository.swift; sourceTree = "<group>"; };
+		FCBCA12E24CE8824002556F4 /* HttpCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCode.swift; sourceTree = "<group>"; };
+		FCBCA13124CE9B5D002556F4 /* ForumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewModel.swift; sourceTree = "<group>"; };
+		FCBCA13324CE9E2C002556F4 /* ForumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
+		FCBCA13624CEA107002556F4 /* TableViewDataSourceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceUtil.swift; sourceTree = "<group>"; };
+		FCBCA13824CEA35E002556F4 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FCBCA13B24CEC779002556F4 /* ForumProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumProtocol.swift; sourceTree = "<group>"; };
+		FCBCA13D24CECF31002556F4 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		FCBCA13F24CED329002556F4 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		FCC6170724CC935300C421C6 /* Lab4_Foros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4_Foros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6170A24CC935300C421C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC6170C24CC935300C421C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +100,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCBCA11424CCE047002556F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA12D24CE87CD002556F4 /* Enums */,
+				FCBCA12224CE5D73002556F4 /* Forum.swift */,
+				FCBCA13824CEA35E002556F4 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCBCA11524CE0BA7002556F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13524CEA0C0002556F4 /* Utils */,
+				FCBCA12524CE6455002556F4 /* Modules */,
+				FCBCA12424CE6447002556F4 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCBCA11624CE0BCA002556F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13124CE9B5D002556F4 /* ForumViewModel.swift */,
+				FCBCA13D24CECF31002556F4 /* CommentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCBCA11724CE0E38002556F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13A24CEC74D002556F4 /* Protocols */,
+				FCBCA12824CE66AE002556F4 /* Repository */,
+				FCBCA11824CE0F52002556F4 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FCBCA11824CE0F52002556F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA12924CE6744002556F4 /* ManagerService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FCBCA11B24CE0FFD002556F4 /* Forums */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6171024CC935400C421C6 /* Main.storyboard */,
+				FCBCA11D24CE1D71002556F4 /* Controllers */,
+			);
+			path = Forums;
+			sourceTree = "<group>";
+		};
+		FCBCA11D24CE1D71002556F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6170E24CC935400C421C6 /* ViewController.swift */,
+				FCBCA12624CE651F002556F4 /* CommentsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCBCA12424CE6447002556F4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13324CE9E2C002556F4 /* ForumTableViewCell.swift */,
+				FCBCA13F24CED329002556F4 /* CommentTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FCBCA12524CE6455002556F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA11B24CE0FFD002556F4 /* Forums */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FCBCA12824CE66AE002556F4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA12B24CE688A002556F4 /* ForumRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FCBCA12D24CE87CD002556F4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA12E24CE8824002556F4 /* HttpCode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		FCBCA13524CEA0C0002556F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13624CEA107002556F4 /* TableViewDataSourceUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FCBCA13A24CEC74D002556F4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCA13B24CEC779002556F4 /* ForumProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		FCC616FE24CC935300C421C6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +237,12 @@
 		FCC6170924CC935300C421C6 /* Lab4_Foros */ = {
 			isa = PBXGroup;
 			children = (
+				FCBCA11724CE0E38002556F4 /* Data */,
+				FCBCA11624CE0BCA002556F4 /* ViewModels */,
+				FCBCA11524CE0BA7002556F4 /* Views */,
+				FCBCA11424CCE047002556F4 /* Models */,
 				FCC6170A24CC935300C421C6 /* AppDelegate.swift */,
 				FCC6170C24CC935300C421C6 /* SceneDelegate.swift */,
-				FCC6170E24CC935400C421C6 /* ViewController.swift */,
-				FCC6171024CC935400C421C6 /* Main.storyboard */,
 				FCC6171324CC935800C421C6 /* Assets.xcassets */,
 				FCC6171524CC935800C421C6 /* LaunchScreen.storyboard */,
 				FCC6171824CC935800C421C6 /* Info.plist */,
@@ -259,9 +399,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBCA12C24CE688A002556F4 /* ForumRepository.swift in Sources */,
+				FCBCA13C24CEC779002556F4 /* ForumProtocol.swift in Sources */,
+				FCBCA13224CE9B5D002556F4 /* ForumViewModel.swift in Sources */,
+				FCBCA13724CEA107002556F4 /* TableViewDataSourceUtil.swift in Sources */,
 				FCC6170F24CC935400C421C6 /* ViewController.swift in Sources */,
+				FCBCA13424CE9E2C002556F4 /* ForumTableViewCell.swift in Sources */,
 				FCC6170B24CC935300C421C6 /* AppDelegate.swift in Sources */,
+				FCBCA14024CED329002556F4 /* CommentTableViewCell.swift in Sources */,
 				FCC6170D24CC935300C421C6 /* SceneDelegate.swift in Sources */,
+				FCBCA13924CEA35E002556F4 /* Comment.swift in Sources */,
+				FCBCA12F24CE8824002556F4 /* HttpCode.swift in Sources */,
+				FCBCA12A24CE6744002556F4 /* ManagerService.swift in Sources */,
+				FCBCA12724CE651F002556F4 /* CommentsViewController.swift in Sources */,
+				FCBCA13E24CECF31002556F4 /* CommentViewModel.swift in Sources */,
+				FCBCA12324CE5D73002556F4 /* Forum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
